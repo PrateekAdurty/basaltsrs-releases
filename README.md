@@ -1,4 +1,4 @@
-# Basalt SRS
+# [Basalt SRS](https://basalt-website.vercel.app/)
 
 A Spaced Repetition System (SRS) application designed to work with Obsidian vaults. Basalt SRS helps you memorize important information from your Obsidian notes using AI-generated flashcards and spaced repetition.
 
