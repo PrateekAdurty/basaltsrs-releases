@@ -41,22 +41,23 @@ A Spaced Repetition System (SRS) application designed to work with Obsidian vaul
 - Google AI Studio API key (for card generation), that you can get here at (Google AI Studio)[https://aistudio.google.com/app/apikey]
 
 #### Installation
-```bash
-git clone https://github.com/yourusername/basalt-srs.git
-cd basalt-srs
-npm install
-```
+- For most users go to releases and download the appropriate .dmg file, mount the dmg, and drag Basalt SRS into Applications.
 
-### 3. Launch the App
-- Run in development mode:
-  ```bash
-  npm run dev
-  ```
-- Or build and run the packaged app:
-  ```bash
-  npm run package
-  # Find the .dmg in the dist/ folder (macOS)
-  ```
+### 3. Bypass Unidentified Developer on macOS
+When opening the .dmg for the first time, macOS may prevent the app from launching due to it being from an "unidentified developer."
+
+To open the app anyway:
+1. Try opening the .app file—macOS will likely block it.
+2. Go to System Settings > Privacy & Security.
+3. Scroll down to the Security section. You’ll see a message that says something like:
+4. “Basalt SRS was blocked from use because it is not from an identified developer.”
+5. Click "Open Anyway".
+6. A new popup will appear. Click "Open" again to confirm.
+
+Basalt SRS will now launch, and you won’t have to do this again for future launches.
+
+This is a standard macOS security feature for all apps not notarized through Apple's paid developer program. There’s no risk in running Basalt SRS if you downloaded it from the official source.
+
 
 ### 4. First Steps in the App
 1. **Select your Obsidian vault** and the folder you have storing all images in your obsidian vault. 
@@ -64,6 +65,7 @@ npm install
 3. I reccomend using the in-file Q&A method FIRST to generate any cards you can. THe cards from this method will be exact and accurate.
 4. THEN use the AI card generation to generate cards from any files that don't have this top-level bullet question indented sub-level bullet answer format (see below for what that means)
 5. You're gonna have a bunch of new cards after you do this, so just stay on top of it and get going.
+
 
 
 ---
