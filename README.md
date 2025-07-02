@@ -106,19 +106,6 @@ npm install
 - Basalt SRS supports auto-updates via GitHub Releases.
 - When a new version is released, you'll be notified in-app and can update with one click—no need to manually download or reinstall.
 
----
-The application categorizes files into the following types:
-
-- `chome`: Content Homes (memorized)
-- `wiki`: Wiki Pages (memorized)
-- `gencepts`: General Concepts/People/Events (memorized)
-- `school`: Test/Exam/Interview Prep (memorized)
-- `clippings`: Clippings from Obsidian Web Clipper (not memorized)
-- `misc`: Miscellaneous (not memorized)
-- `synthesis`: Synthesis/Blog Posts (not memorized)
-
----
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
