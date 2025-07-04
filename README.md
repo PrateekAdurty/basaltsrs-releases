@@ -41,7 +41,7 @@ A Spaced Repetition System (SRS) application designed to work with Obsidian vaul
 - Google AI Studio API key (for card generation), that you can get here at (Google AI Studio)[https://aistudio.google.com/app/apikey]
 
 #### Installation
-- For most users go to releases and download the appropriate .dmg file, mount the dmg, and drag Basalt SRS into Applications.
+- For most users go to [releases](https://github.com/PrateekAdurty/basaltsrs-releases/releases) and download the latest appropriate .dmg file, mount the dmg, and drag Basalt SRS into Applications.
 
 ### 3. Bypass Unidentified Developer on macOS
 When opening the .dmg for the first time, macOS may prevent the app from launching due to it being from an "unidentified developer."
